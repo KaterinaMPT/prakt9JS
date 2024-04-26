@@ -1,0 +1,32 @@
+body{
+  background-color: rgb(230, 223, 215);
+  color: #554334;
+  text-shadow: 1px 0px 0px #524433;
+  font-size: 20px;
+  display: grid;
+  grid-template-rows: 1fr 5fr 2fr;
+  align-items: center;
+}
+.item {
+  border: 1px solid #000000;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+label{
+  grid-row: 1;
+}
+#collection {
+  grid-row: 2;
+  width: 50%; 
+  margin: 0 auto;
+}
+h1{
+  text-align: center; 
+}
+button{
+  background-color:#705c4a;
+  border-color: #967a62;
+  box-shadow: none;
+  border-radius: 10%;
+  color: #d5d5d5;
+}
